@@ -35,4 +35,9 @@ fun main() {
         #android application development  
     """.trimMargin("#")  
     println(text) 
+
+    val str1 = buildString { "string value" }  
+    val str2 = buildString { "string value" }  
+    println(str1===str2)  
+    println(str1!==str2)
 }
